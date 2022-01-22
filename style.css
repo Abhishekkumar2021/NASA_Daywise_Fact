@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: rgb(36, 42, 43);
+}
+.container {
+	width: 100%;
+	min-height: 100vh;
+}
+figure {
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	max-width: 96%;
+	border-radius: 10px;
+	max-height: 90vh;
+	box-shadow: 0 0px 40px rgba(0, 0, 0, 0.74);
+}
+figcaption {
+	width: 96%;
+	background: rgb(27, 31, 37);
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.34);
+	margin: 30px;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 16px;
+	font-family: Roboto Mono;
+	margin-left: -20px;
+	color: white;
+	transition: 1s ease all;
+}
+@media only screen and (max-width: 1500px) {
+	figure {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	figcaption {
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	img {
+		max-height: 100%;
+	}
+}
+nav {
+	display: flex;
+	padding-top: 20px;
+	width: 100%;
+	justify-content: center;
+}
+input,
+button {
+	background: rgb(46, 53, 54);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	margin: 0 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.199);
+	font-size: 16px;
+	font-family: Roboto Mono;
+}
+button:active {
+	transform: scale(0.9);
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+h3 {
+	margin-top: 10px;
+}
+figcaption:hover {
+	transform: scale(1.05);
+}
