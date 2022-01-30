@@ -14,7 +14,7 @@ figure {
 	display: flex;
 	margin: 20px;
 	justify-content: center;
-	align-items: center;
+	align-items: center;height:85vh;
 }
 img {
 	max-width: 96%;
